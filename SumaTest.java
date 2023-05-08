@@ -7,7 +7,7 @@ import org.junit.Test;
 public class SumaTest {
 
 	@Test
-	public void sumaPositivos() {
+	public void sumaPositivos() { //comprobacion de la suma de numeros positivos
 		System.out.println("Sumando dos numeros positivos...");
 		Suma s=new Suma(2,3);
 		int resultadoEsperado=5;
@@ -16,7 +16,7 @@ public class SumaTest {
 	}
 		
 	@Test
-	public void sumaNegativos() {
+	public void sumaNegativos() { // comprobacion de la suma de numeros negativos
 		System.out.println("Sumando dos numeros negativos...");
 		Suma t=new Suma(-2,-3);
 		int resultadoEsperado=-5;
@@ -25,7 +25,7 @@ public class SumaTest {
 	}
 		
 	@Test
-	public void sumaPositivoNegativo() {
+	public void sumaPositivoNegativo() { // comprobacion de la suma de numeros positivos y negativos
 		System.out.println("Sumando de numeros negativos y positivos...");
 		Suma u=new Suma(+2,-3);
 		int resultadoEsperado=-1;
